@@ -1,0 +1,43 @@
+.pompeo-main {
+  background-color: white;
+  box-shadow: 1px 1px 2px rgb(226, 222, 222);
+  position: fixed;
+  width: 100%;
+
+  .pompeo {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    .pompeo-buttons {
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+        padding: 1rem;
+        font-size: 0.8rem;
+        color: rgb(114, 111, 111);
+        li:hover {
+          cursor: pointer;
+          color: black;
+        }
+        .with-bgc {
+          color: rgb(143, 31, 31);
+          &:hover {
+            color: rgb(143, 31, 31);
+          }
+        }
+      }
+      .logo-cart {
+        align-items: center;
+        padding: 0 0.7rem;
+        display: flex;
+        border-left: 1px solid rgb(218, 213, 213);
+        gap: 0.2rem;
+        &:hover {
+          cursor: pointer;
+          color: black;
+        }
+      }
+    }
+  }
+}

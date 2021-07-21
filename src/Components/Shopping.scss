@@ -1,0 +1,32 @@
+#main-shopping {
+  font-size: 17px;
+  padding: 60px 0;
+  background-image: url("../Media/background.jpeg");
+  margin: 150px 0;
+  button {
+    padding: 15px 37px;
+    background-color: rgb(151, 54, 54);
+    color: white;
+    border: none;
+    font-size: 16px;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(85, 30, 30);
+    }
+  }
+  h1 {
+    font-weight: 500;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 17px;
+  }
+  p {
+    color: rgb(77, 74, 74);
+    span {
+      border-bottom: 1px solid rgb(163, 30, 30);
+      color: rgb(143, 38, 38);
+      font-weight: 600;
+    }
+  }
+}

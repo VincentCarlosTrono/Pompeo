@@ -1,0 +1,59 @@
+.main-plane {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  p {
+    color: rgb(148, 41, 41);
+    font-weight: 300;
+    padding: 20px;
+  }
+  h1 {
+    font-weight: 200;
+    font-size: 40px;
+  }
+  .subscribe-form {
+    padding: 20px;
+    input {
+      background-image: url("../Media/envelope.png");
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 20px;
+      padding: 10px 0 10px 20px;
+    }
+    button {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 12px;
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(46, 45, 45);
+      }
+    }
+  }
+
+  .plane {
+    background-color: rgb(109, 60, 25);
+    border-radius: 250px;
+    background-color: chocolate;
+    margin: 0 520px 0 520px;
+    img {
+      width: 5vw;
+      padding: 20px;
+    }
+  }
+  .checkbox {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    input {
+      margin: 5px;
+    }
+    h4 {
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0;
+      color: rgb(94, 93, 93);
+    }
+  }
+}

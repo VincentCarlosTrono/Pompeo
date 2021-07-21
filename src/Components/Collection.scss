@@ -1,0 +1,51 @@
+.collection-item {
+  button {
+    color: white;
+    background-color: rgb(184, 48, 48);
+    border: none;
+    padding: 10px 10px;
+    font-size: 12px;
+    margin: 50px 500px;
+    &:hover {
+      background-color: rgb(107, 28, 28);
+      cursor: pointer;
+    }
+  }
+  .collection-head p {
+    color: rgb(221, 53, 53);
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .collection-head {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .collection-card img {
+    width: 22.5vw;
+    height: 56vh;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    img:hover {
+      cursor: pointer;
+    }
+    p:hover {
+      color: rgb(151, 45, 45);
+      cursor: pointer;
+    }
+    h3 {
+      border-bottom: 1px solid black;
+      &:hover {
+        border-bottom: 1px solid rgb(214, 13, 13);
+        cursor: pointer;
+      }
+    }
+  }
+}

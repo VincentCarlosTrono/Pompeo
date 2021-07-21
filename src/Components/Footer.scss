@@ -1,0 +1,27 @@
+.main-footer {
+  text-align: center;
+
+  .head {
+    p {
+      color: rgb(124, 118, 118);
+      font-size: 14px;
+    }
+  }
+  .contacts {
+    padding: 70px 70px 70px 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 3vw;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    p {
+      color: rgb(76, 68, 68);
+      font-size: 13px;
+    }
+  }
+}

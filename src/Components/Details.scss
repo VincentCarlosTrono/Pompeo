@@ -1,0 +1,42 @@
+.main-details {
+  padding: 70px;
+  margin: 0 200px;
+
+  .details {
+    display: flex;
+    align-items: center;
+    .vase-bgc {
+      background-color: rgb(228, 222, 222);
+      height: 22vh;
+      width: 25vw;
+      display: grid;
+      place-content: center;
+    }
+    > div img {
+      height: 65vh;
+    }
+    .more-details {
+      padding: 130px;
+      color: rgb(119, 116, 116);
+      font-size: 13px;
+
+      h1 {
+        font-weight: 300;
+        font-size: 40px;
+        color: black;
+      }
+      button {
+        font-weight: 200;
+        font-size: 15px;
+        color: black;
+        border: none;
+        background-color: white;
+        padding-left: 0;
+        &:hover {
+          border-bottom: 1px solid black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
