@@ -7,13 +7,14 @@ import plate from "../Media/plate.png";
 const Categories = () => {
   return (
     <div className="main-categories grid-container">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="head">
           <p>PRODUCT CATEGORIES</p>
           <h1>
             Porcelain <span>&</span> Pottery
           </h1>
         </div>
+
         <div className="main-icon">
           <div className="vase round">
             <div className="vase-border">

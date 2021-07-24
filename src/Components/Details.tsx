@@ -8,11 +8,11 @@ const Details = () => {
     <div className="main-details grid-container">
       <div className="details container">
         <div>
-          <div className="vase-bgc">
+          <div className="vase-bgc" data-aos="fade-right">
             <img src={vase1} alt="vase1" />
           </div>
         </div>
-        <div className="more-details">
+        <div className="more-details" data-aos="fade-left">
           <h1>Gold & Black Pottery</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
@@ -23,7 +23,7 @@ const Details = () => {
           <button>View Details</button>
         </div>
       </div>
-      <div className="details container">
+      <div className="details container" data-aos="fade-right">
         <div className="more-details">
           <div>
             <h1>Orange Ceramic</h1>
@@ -38,7 +38,7 @@ const Details = () => {
           </div>
         </div>
         <div>
-          <div className="vase-bgc">
+          <div className="vase-bgc" data-aos="fade-left">
             <img src={vase2} alt="vase2" />
           </div>
         </div>

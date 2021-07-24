@@ -6,7 +6,7 @@ import contact from "../Media/call.png";
 
 const Footer = () => {
   return (
-    <div className="grid-container">
+    <div className="grid-container" data-aos="fade-up">
       <div className="main-footer container">
         <div className="head">
           <h1>Pompeo</h1>

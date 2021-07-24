@@ -3,7 +3,7 @@ import "./Shopping.scss";
 
 const Shopping = () => {
   return (
-    <div className="grid-container" id="main-shopping">
+    <div className="grid-container" id="main-shopping" data-aos="fade-up">
       <div className="container">
         <h3> POMPEO POTTERY</h3>
         <h1>Ready to start shopping?</h1>

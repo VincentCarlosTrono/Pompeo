@@ -4,7 +4,7 @@ import "./Hero.scss";
 const Hero = () => {
   return (
     <div className="grid-container" id="hero-section">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div>
           <h3>POMPEO POTTERY</h3>
           <h1>
@@ -14,7 +14,7 @@ const Hero = () => {
           <p>
             Unique & modern pottery made by our master in porcelain & stones
           </p>
-          <button>SHOP COLLECTION</button>
+          <button data-aos="fade-up">SHOP COLLECTION</button>
         </div>
       </div>
     </div>
