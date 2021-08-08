@@ -6,7 +6,7 @@ import plate from "../Media/plate.png";
 
 const Categories = () => {
   return (
-    <div className="main-categories grid-container">
+    <div className="main-categories grid-container" id="about">
       <div className="container" data-aos="fade-up">
         <div className="head">
           <p>PRODUCT CATEGORIES</p>

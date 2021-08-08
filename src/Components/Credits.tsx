@@ -4,7 +4,7 @@ import "./Credits.scss";
 const Credits = () => {
   return (
     <div>
-      <div className="copyright " data-aos="fade-up">
+      <div className="copyright ">
         <p>
           Template design by <span>Dorian Hoxha </span>- Image License Info
           Powered by <span>Webflow </span>

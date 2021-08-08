@@ -8,10 +8,19 @@ export const Header = () => {
         <h1>Pompeo</h1>
         <div className="pompeo-buttons">
           <ul>
-            <li className="with-bgc">HOME</li>
-            <li>ABOUT</li>
-            <li>SHOP</li>
-            <li>CONTACT</li>
+            <li className="with-bgc">
+              <a href="/">HOME</a>
+            </li>
+            <li>
+              <a href="#about">ABOUT</a>
+            </li>
+            <li>
+              <a href="#shop">SHOP</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+
             <div className="logo-cart">
               <box-icon name="cart" color="gray"></box-icon>
               <li>cart</li>

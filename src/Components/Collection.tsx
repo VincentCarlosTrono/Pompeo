@@ -45,7 +45,7 @@ const cardItems2 = [
 
 const Collection = () => {
   return (
-    <div className="collection grid-container">
+    <div className="collection grid-container" id="shop">
       <div className="collection-item container" data-aos="fade-up">
         <div className="collection-head">
           <p>OUR ONLINE STORE</p>

@@ -4,7 +4,7 @@ import plane from "../Media/plane.png";
 
 const Updates = () => {
   return (
-    <div className="grid-container">
+    <div className="grid-container" id="contact">
       <div className="main-plane container" data-aos="fade-up">
         <div>
           <div className="plane">
