@@ -6,9 +6,8 @@ const Credits = () => {
     <div>
       <div className="copyright ">
         <p>
-          Template design by <span>Dorian Hoxha </span>- Image License Info
-          Powered by <span>Webflow </span>
-          <br /> Recreated by <span>Vincent, Trono</span>
+          Copyright <box-icon name="copyright"></box-icon>
+          <span>Trono, Vincent</span>
         </p>
       </div>
     </div>
