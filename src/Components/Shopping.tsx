@@ -1,5 +1,5 @@
 import React from "react";
-import "./Shopping.scss";
+import "../Styling//Shopping.scss";
 
 const Shopping = () => {
   return (

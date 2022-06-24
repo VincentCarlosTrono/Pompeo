@@ -1,11 +1,12 @@
 .collection-item {
+  text-align: center;
   button {
     color: white;
     background-color: rgb(184, 48, 48);
     border: none;
-    padding: 10px 10px;
-    font-size: 12px;
-    margin: 50px 500px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 2rem;
     &:hover {
       background-color: rgb(107, 28, 28);
       cursor: pointer;
@@ -24,15 +25,20 @@
     justify-content: center;
     align-items: center;
   }
-  .collection-card img {
-    width: 22.5vw;
-    height: 56vh;
+  .collection-card {
+    cursor: pointer;
+    gap: 2rem;
+    img {
+      width: 14vw;
+      height: 40vh;
+    }
   }
   .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    gap: 2rem;
     img:hover {
       cursor: pointer;
     }

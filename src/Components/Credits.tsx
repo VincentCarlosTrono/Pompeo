@@ -1,5 +1,5 @@
 import React from "react";
-import "./Credits.scss";
+import "../Styling/Credits.scss";
 
 const Credits = () => {
   return (

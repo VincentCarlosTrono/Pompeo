@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.scss";
+import "../Styling//Footer.scss";
 import envelope2 from "../Media/envelope2.png";
 import location from "../Media/location.png";
 import contact from "../Media/call.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Collection.scss";
+import "../Styling//Collection.scss";
 
 import collection1 from "../Media/collection1.png";
 import collection2 from "../Media/collection2.png";
@@ -24,8 +24,6 @@ const cardItems = [
     name: "Set of Potteries",
     price: "$125.00 USD",
   },
-];
-const cardItems2 = [
   {
     image: collection4,
     name: "Orange Ceramic",
@@ -56,27 +54,10 @@ const Collection = () => {
             return (
               <div className="collection-card">
                 <div>
-                  <img src={item.image} alt="item image" />
+                  <img src={item.image} alt="itemImage" />
                 </div>
                 <div>
                   <p>{item.name}</p>
-
-                  <h3>{item.price}</h3>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-        <div className="cards" data-aos="fade-up">
-          {cardItems2.map((item) => {
-            return (
-              <div className="collection-card">
-                <div>
-                  <img src={item.image} alt="item image" />
-                </div>
-                <div>
-                  <p>{item.name}</p>
-
                   <h3>{item.price}</h3>
                 </div>
               </div>

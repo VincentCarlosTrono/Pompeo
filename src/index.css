@@ -20,6 +20,8 @@ a {
 }
 
 .grid-container {
+  align-items: center;
+  justify-content: center;
   display: grid;
   grid-template-columns:
     minmax(1rem, 1fr)

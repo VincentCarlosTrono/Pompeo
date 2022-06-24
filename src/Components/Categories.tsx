@@ -1,5 +1,5 @@
 import React from "react";
-import "./Categories.scss";
+import "../Styling/Categories.scss";
 import vase from "../Media/vase.png";
 import cup from "../Media/cup.png";
 import plate from "../Media/plate.png";
@@ -47,7 +47,7 @@ const Categories = () => {
               vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
               imperdiet. Nunc ut sem vitae risus posuere.
             </p>
-          </div>{" "}
+          </div>
           <div>
             <h1>
               We Provide Premium <br /> Pottery Produts

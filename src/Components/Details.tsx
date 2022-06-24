@@ -1,5 +1,5 @@
 import React from "react";
-import "./Details.scss";
+import "../Styling//Details.scss";
 import vase1 from "../Media/vase1.png";
 import vase2 from "../Media/vase2.png";
 

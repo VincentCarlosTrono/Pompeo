@@ -1,5 +1,5 @@
 import React from "react";
-import "./Updates.scss";
+import "../Styling//Updates.scss";
 import plane from "../Media/plane.png";
 
 const Updates = () => {
